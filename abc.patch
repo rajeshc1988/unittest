@@ -1,0 +1,16 @@
+diff --git a/app.js b/app.js
+index ac2c2a7..dbca640 100644
+--- a/app.js
++++ b/app.js
+@@ -13,7 +13,7 @@ app.post('/validate', function (req, res) {
+         code:200
+         
+     }
+-    
++    console.log('This is test');
+     res.send(result)
+ })
+ 
+diff --git a/test.js b/test.js
+new file mode 100644
+index 0000000..e69de29
