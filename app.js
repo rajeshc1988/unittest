@@ -13,7 +13,7 @@ app.post('/validate', function (req, res) {
         code:200
         
     }
-    
+    console.log('This is test');
     res.send(result)
 })
 
